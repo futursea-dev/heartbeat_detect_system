@@ -27,6 +27,9 @@ This project is a Python-based system designed to analyze heartbeat audio record
     ```bash
     pip install -r requirements.txt
 
+    transformers-cli download sshleifer/distilbart-cnn-12-6
+    transformers-cli download microsoft/phi-2
+
 4. Download necessary Hugging Face models (run this once):
     ```python
     from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
